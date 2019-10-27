@@ -1,0 +1,61 @@
+dW
+8% - accurcy order	             /html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[2]/td[3]/span	tried
+12% overall value - 		/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[2]/td[3]/span	tried
+12% - satsfaction 4 radio	/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[2]/td[3]/span	tried
+			/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[3]/td[3]/span	tried
+			/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[4]/td[3]/span	tried
+			/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[5]/td[3]/span	tried
+			/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[6]/td[3]/span	tried
+
+17% problem		/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[2]/td[3]/span	tried
+24% - likehood 2 radio  	/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[2]/td[3]/span	tried
+		     	/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[3]/td[3]/span	tried
+
+25% - text experience 	//*[@id="S000033"]						tried
+
+47% - item ordered  	/html/body/div[1]/div[3]/div[2]/form/div/div[1]/div[2]/div/div[1]/span/span	...1tried
+54% - staff interaction	/html/body/div[1]/div[3]/div[2]/form/div/div[1]/div[2]/div/div[1]/span/span	...1tried
+55% - value of customer   	/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[2]/td[2]/span	...2 tried	
+56% - order accurate   	/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[2]/td[2]/span	...2 tried
+84% - recieve order 	/html/body/div[1]/div[3]/div[2]/form/div/div[1]/div[2]/div/div[1]/span/span	...tried
+84% - carpark order		/html/body/div[1]/div[3]/div[2]/form/div/div[1]/div[2]/div/div[2]/span/span	..tried
+85% - 
+11 questions asked - case 1
+12 q asked -case 2
+4 radio q are linked together
+
+
+try :
+	code = driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/form/div/div/div/div/div[1]/div/p[6]').text
+	print(code)
+	codeFound = True
+except selenium.common.exceptions.NoSuchElementException:
+	codeFound = False
+	try:
+		driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[2]/td[3]/span').click()
+	except selenium.common.exceptions.NoSuchElementException:
+		try:
+			driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[2]/td[3]/span').click()
+			driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[3]/td[3]/span').click()
+			driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[4]/td[3]/span').click()
+			driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[5]/td[3]/span').click()
+			driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[6]/td[3]/span').click()	
+		except selenium.common.exceptions.NoSuchElementException:
+			try:
+				driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[2]/td[3]/span').click()
+				driver.find_element_by_xpath('/html/body/div[1]/div[3]/div[2]/form/div/table/tbody/tr[3]/td[3]/span').click()
+			except selenium.common.exceptions.NoSuchElementException:
+				try:
+					driver.find_element_by_xpath('//*[@id="S000033"]').send_keys('Great')	
+				 except selenium.common.exceptions.NoSuchElementException:
+					try:
+					
+driver.find_element_by_xpath('//*[@id="NextButton"]').click()
+//*[@id="NextButton"]	
+//*[@id="NextButton"]
+
+06588
+06606
+
+
+					 	
