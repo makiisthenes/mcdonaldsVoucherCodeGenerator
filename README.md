@@ -1,8 +1,8 @@
 # mcdonaldsVoucherCodeGenerator
-# From the code on McDonalds UK reciept will autocomplete customer experience survey and output the the voucher code used for
-# discounted food... saves time.
-
-# Just a note before,
+ From the code on McDonalds UK reciept will autocomplete customer experience survey and output the the voucher code used for
+ discounted food... saves time.
+<hr>
+#Just a note before, </br>
  This is neither illegal nor unethical because: </br>
  1 - You need an reciept to get the discount code; </br>
  2 - We all love the McDonalds, we will always give top marks in quality research. </br>
