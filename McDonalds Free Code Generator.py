@@ -10,7 +10,7 @@ driver = webdriver.Firefox()
 # reciept-code: xxxx-xxxx-xxxx
 # SURVEY IS NOT THE SAME, use try and except
 # MV9WYB7VX9HM - PRACTICE CODE
-# Main problem is the fact the switch the questions and theres no set order, so you must use a bunch of exceptions
+# Main problem is the fact the switch the questions and theres no set order, so you must use a bunch of exceptions FIXED
 
 
 def getCode(reciept_code):
